@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("/registro")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class RegistroController {
     @Autowired
     RegistroService registroService;
