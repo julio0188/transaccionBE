@@ -14,9 +14,9 @@
 	<name>transaccion</name>
 	<description>CRUD transacciones bancarias</description>
 	<properties>
+		<java.version>11</java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
